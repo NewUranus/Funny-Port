@@ -16,6 +16,11 @@ Window {
             height: parent.height
             width:parent.width * 0.3
             anchors.left: parent.left
+
+            ListView{
+                id: portsList
+                anchors.fill: parent
+            }
         }
 
         Rectangle{
